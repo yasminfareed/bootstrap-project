@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand{
+font-size: 1.2rem;
+font-weight: 700;
+}
+
+.navbar-nav{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #ffffff8c;
+}
+
+.btn-success{
+    color: #ffffff !important;
+    background-color: #00ba94;
+    border-color: #00ba94;
+    font-weight: 500 !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid{
+  background-image: linear-gradient(337deg, #27058a 0%, #109ee9 100%);
+  height: 100vh;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  }
+  
+  .container-fluid .curved {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3rem;
+    width: 100%;
+  }
+
+  .fas{
+    font-size: 0.8rem;
+}
+
+  
+  .display-4 {
+    font-size: 2.8rem;
+    font-weight: 500;
+  }
+  
+  .lead {
+    font-size: 1.38rem;
+    margin-bottom: 2rem;
+    --bs-text-opacity: 1;
+    color: #ffffff80!important;
+    font-weight: 500;
+  }
+
+  img.img {
+    width: 80%;
+    margin-left: 5rem;
+}
+
+
+
+@media screen and (max-width: 991px) {
+  img.img {
+    display: none;
+  }
+}
+  
+ .container{
+  display: flex;
+  text-align: center;
+  justify-content: space-around; 
+ }
+
+
+
+ .circle{
+  border-radius: 50%;
+  background-color: #27058a;
+ }
+
+ .container h3{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #363d47;
+ }
+
+ .cwave{
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+ }
+
+ svg.wave {
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2rem;
+    width: 100%;
+}
+  
+  .container-2 {
+    background-color: #f7fbfd;
+   
+  } 
+
+  .lead1{
+    color: #a19a9a;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .col h6{
+    font-weight: 500;
+  }
+
+  .col .img{
+
+    opacity: 1;
+    transform: translateZ(0);
+    transition-timing-function: ease;
+    perspective: 1500px!important;
+    transform-style: preserve-3d!important;
+    margin: 40px;
+    width: 100%;
+    box-shadow: -5px 0px 0px 0px rgba(0, 0, 0, 0.1), 0 2px 13px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0px 0px 10px 10px;
+    transform: rotateY(30deg) rotateX(15deg)!important;
+    -webkit-backface-visibility: hidden!important;
+    backface-visibility: hidden!important;
+}
+  
+svg.wave1{
+  bottom: 0;
+  left: 0;
+  height: 2rem;
+  width: 100%;
+}
+
+.container .cont{
+  display: flex;
+  width: 900px;
+  height: 270px;
+  margin-left: 250px;
+  align-items: center;
+}
+
+.Box {
+  background-color: white;
+  margin: 10px;
+  width: 310px;
+  height: 320px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  text-align: left;
+    padding-left: 40px;
+}
+
+
+.Box1 {
+  background-color: white;
+  margin: 10px;
+   width: 310px;
+  height: 320px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  text-align: left;
+    padding-left: 40px;
+}
+
+.Box2 {
+  background-color: white;
+  margin: 10px;
+   width: 310px;
+  height: 320px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  text-align: left;
+    padding-left: 40px;
+}
+
+p.p1 {
+  text-align: left;
+  padding: 20px 0px 0px 40px;
+}
+
+.h5{
+  font-size: 2rem;
+}
+
+p.para2 {
+  margin-top: 100px;
+}
+
+.text-center {
+  padding-top: 54px;
+  font-weight: 600;
+}
+
+.pp{
+  color: #7f7b7b;
+}
+
